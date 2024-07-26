@@ -36,17 +36,28 @@ a{
     padding:3px 7px;
 }
 .grid-fill{
-    position: relative;
+    position:relative;
+    margin-left:25px;
+    cursor:pointer;
 }
 .subnav{
-    position: absolute;
-    z-index: 100;
-    width: 300px;
-    height: 250;
-    border: 1px solid #ddd;
-    background: #fff;
-    right: 0px;
-    top: 40px;
+    position:absolute;
+    z-index:999;
+    width:300px;
+    border:1px solid #ddd;
+    background:#fff;
+    right:0px;
+    top:40px;
+    display:none;
+}
+.subnav::before{
+    content:"";
+    position:absolute;
+    width:10px;
+    height:6px;
+    background:url(../images/arr-top.jpg) no-repeat;
+    top:-6px;
+    right:0;
 }
 .top-email i, .grid-fill i{
     font-size:25px;
@@ -134,39 +145,37 @@ li.active{
     cursor:pointer;
 }
 
-
-/**** subnav*****/
+/** subnav **/
 .subnav .d-flex:first-child{
     padding-top:30px;
-    padding-bottom:30px;
+    padding-bottom:15px;
+    border-bottom:1px solid #ddd;
 }
 .subnav a{
-    display: block;
-    margin-top: 5px;
+    display:block;
+    margin-top:5px;
+    font-weight:bold;
+    line-height:25px;
 }
 .subnav .d-flex img{
-    width: 65%;
+    width:65%;
 }
 .subcol{
-    width: 25%;
-    text-align: center;
+    width:25%;
+    text-align:center;
 }
 .subcol a:hover{
-    text-decoration: underline;
+   text-decoration:underline;
 }
 .subcol ul a{
-    font-weight: 400;
-    line-height: 20px;
-    color: #000;
+    font-weight:400;
+    line-height:20px;
+    color:#000;
 }
 .box-bottom{
-    text-align: center;
-    border-top: 1px solid #ddd;
-    background: #fefefe;
-    height: 45px;
-    line-height: 45px;
-    margin-top: 15px;
+    text-align:center;
+    border-top:1px solid #ddd;
+    background:#efefef;
+    height:45px;
+    margin-top:15px;
 }
-
-
-
