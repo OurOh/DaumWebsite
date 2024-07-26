@@ -136,7 +136,7 @@ li.active{
 
 
 /**** subnav*****/
-.subnav .d-flex{
+.subnav .d-flex:first-child{
     padding-top:30px;
     padding-bottom:30px;
 }
@@ -151,19 +151,22 @@ li.active{
     width: 25%;
     text-align: center;
 }
-.subcl a:hover{
+.subcol a:hover{
     text-decoration: underline;
 }
-
-
-
-
-.subnav-text{
-    font-weight: 700;
+.subcol ul a{
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
 }
-.subnav-text{
-    text-decoration: underline;
+.box-bottom{
+    text-align: center;
+    border-top: 1px solid #ddd;
+    background: #fefefe;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 15px;
 }
-.subnav:hover .subnav-text:first-child + .subnav-text{
-    text-decoration: underline;
-}
+
+
+
