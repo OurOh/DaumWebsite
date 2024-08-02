@@ -15,15 +15,20 @@ $(function(){
 
 }); // /.jquery
 
+
 let i = 0;
 function fadeInOut(){
-   i++;
-   if(i > 7) {
-      i = 1;
-   }
-   console.log(i);
    $(".hero .hero-box:eq(0)").clone().appendTo('.hero');
    $(".hero .hero-box:eq(0)").remove();
    $('.hero .hero-box:eq(0)').addClass('act');     
    $('.hero .hero-box:eq(0) ul>li:first-child a').addClass("active");
+}
+
+function fadeInOut(){
+  let ct = $(".hero-box").length;
+  console.log(ct);
+  $(".hero .her-box:eq("+(ct-1)+")").clone().prependTo('.hero');
+  $(".hero .hero-box:eq("+ct+")").remove();
+  $(".hero .hero-box").removerClass("act");
+  $('.hero .hero-box:eq(0) ul>li:first-child a').addClass("active");
 }
