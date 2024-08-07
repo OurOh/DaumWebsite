@@ -354,6 +354,18 @@ a.sc1-link:hover{
     margin-top:30px;
     position:relative;
 }
+.b-table-wrapper .table-btn{
+    display: block;
+    border: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    font-size: 40px;
+    line-height: 0.8;
+    
+}
+
 .b-table{
 
     border: 1px solid #eee;
