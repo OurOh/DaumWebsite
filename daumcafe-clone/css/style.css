@@ -764,7 +764,38 @@ a.sc1-link:hover{
      top:5px;
      position:absolute;
  }
- 
+.f-navi div{
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+
+.f-navi a{
+    margin-right:30px;
+    position: relative;
+    display: inline-block;
+ }
+.f-navi a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5px;
+    background: #ED3E49;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 500mx ease;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+.f-navi a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
 .fadeIn1{
     animation: fadeIn1 300ms forwards;
 }
@@ -780,6 +811,11 @@ a.sc1-link:hover{
 .fadeIn5{
     animation: fadeIn5 1500ms forwards;
 }
+
+
+
+
+
 
 @keyframes fadeIn1 {
     from { opacity: 0;  }
