@@ -4,20 +4,20 @@
 ---
 
 ## 📋 프로젝트 개요  
-**Daum 웹사이트**의 주요 레이아웃과 스타일을 따라 만들어 보며 프론트엔드 개발을 연습하기 위해 제작했습니다.
-HTML, CSS(SCSS 포함)를 활용하여 웹사이트의 구조와 스타일링을 학습하는 데 중점을 두었습니다.
+**Daum 웹사이트**의 주요 레이아웃과 스타일을 따라 만들어 보며 프론트엔드 개발을 연습하기 위해 제작했습니다
+HTML, SCSS, JavaScript를 활용하여 Daum 웹사이트와 유사한 구조와 디자인을 구현하는 데 중점을 두었습니다.
 
 ---
 
 ## 🚀 주요 기능  
-- **Daum 메인 페이지 클론**: Daum의 기본 레이아웃을 클론한 메인 페이지 구현  
-- **반응형 디자인**: 다양한 화면 크기에 대응할 수 있는 레이아웃 구현 (선택 사항)  
+- **메인 페이지 클론**: Daum 웹사이트의 레이아웃과 스타일을 최대한 유사하게 구현   
+- **정적 데이터 사용**: HTML과 CSS만으로 정적 콘텐츠 제작  
 
 ---
 
 ## 🛠️ 기술 스택  
-- **Frontend**: HTML, CSS, 
-- **Assets**: Images  
+- **Frontend**: HTML, SCSS, JavaScript  
+- **Assets**: Images, Fonts  
 
 ---
 
@@ -26,12 +26,20 @@ HTML, CSS(SCSS 포함)를 활용하여 웹사이트의 구조와 스타일링을
 DaumWebsite/
 │
 ├── daumcafe-clone/       # Daum 웹사이트 클론 관련 파일  
-│   ├── css/              # 스타일 파일   
-│   ├── images/           # Daum 관련 이미지 파일  
-│   ├── index.html        # Daum 메인 페이지 HTML  
-│   └── ...               # 기타 HTML 파일  
+│   ├── css/              # 스타일 파일 
+│   │   ├── animate.css   # 애니메이션 스타일  
+│   │   ├── grid.css      # 그리드 레이아웃  
+│   │   ├── reset.css     # 기본 스타일 초기화  
+│   │   └── style.css     # 메인 스타일 파일  
+│   │
+│   ├── data/             # 정적 데이터 파일  
+│   ├── fonts/            # 폰트 파일  
+│   ├── html/             # HTML 파일  
+│   │   └── index.html    # Daum 메인 페이지  
+│   ├── images/           # 이미지 파일  
+│   └── js/               # JavaScript 파일 
 │
-└── README.md             # 프로젝트 설명서  
+└── README.md             # 프로젝트 설명서
 ```
 
 ---
