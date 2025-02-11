@@ -21,6 +21,14 @@ HTML, SCSS, JavaScript를 활용하여 Daum 웹사이트와 유사한 구조와 
 
 ---
 
+## 🧑‍💻 개발자 정보  
+- **개발자**: 오승안 / OH SEUNG ANH 
+- **이메일**: dhtmddks98@naver.com, ahn980321@gmail.com ,
+- **GitHub**: https://github.com/OurOh
+- **개인블로그**: https://ouroh.tistory.com/
+
+---
+
 ## 🗂️ 프로젝트 구조  
 ```plaintext
 DaumWebsite/
@@ -44,7 +52,4 @@ DaumWebsite/
 
 ---
 
-## 🧑‍💻 개발자 정보  
-- **개발자**: 오승안 / OH SEUNG ANH 
-- **이메일**: ahn980321@gmail.com , dhtmddks98@naver.com 
-- **GitHub**: https://github.com/OurOh
+
